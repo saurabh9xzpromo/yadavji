@@ -84,7 +84,7 @@
 	        display: inline-block;
           font-family: 'Oswald', sans-serif;
             padding: 15px 30px;
-            background-color: #1100EE;
+            background-color: red;
             color: #fff;
             font-size: 40px;
             line-height: 48px;
@@ -103,15 +103,15 @@
         @keyframes buttonAnimation {
             0% {
                 transform: scale(1);
-                background-color: rgb(0, 255, 55);
+                background-color: yellow;
             }
             50% {
                 transform: scale(1.2);
-                background-color: rgb(0, 208, 255);
+                background-color: red;
             }
             100% {
                 transform: scale(1);
-                background-color: rgb(0, 255, 55);
+                background-color: yellow;
             }
         }
 
@@ -136,4 +136,5 @@
         font-size: 1.4rem;
         margin-top: 20px;
     }
+
   }
